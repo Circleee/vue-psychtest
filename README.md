@@ -1,3 +1,7 @@
+#一个简单的心理测验
+用了 Vue2.0 Vue-router lodash
+
+#[在线地址](https://acircle.cc/psychtest)
 # psychtest
 
 > A Vue.js project
