@@ -4,7 +4,7 @@
 		<div class="content">{{storydata[indexpage].content}}</div>
 		<div @click='indexpageadd()' v-if="indexpage != storyindex" class="next">下一页</div>
 		<div v-else >
-			<p>故事到这个地方就讲完啦。请你把这几个人进行打分，标准是你认为谁最好，谁第二，谁第三，第四，第五？这个M 男也算在内的。建议不要想太复杂，也不需要考虑大众看法，你认为谁做得好就是好。</p>
+			<p class='readfinish'>故事到这个地方就讲完啦。请你把这几个人进行打分，标准是你对他们的好感度。</p>
 			<router-link to='select' class="next">开始打分</router-link>
 		</div>
 
@@ -52,7 +52,7 @@
 }
 .story h1{
 	text-align: center;
-	line-height: 75px;
+	line-height: 45px;
 }
 .story{
 	background-image: url("./image/m.jpg");
@@ -91,4 +91,5 @@
 	text-decoration: none;
 	font-size: 22px;
 }
+
 </style>
