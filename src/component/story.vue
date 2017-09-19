@@ -7,7 +7,6 @@
 			<p class='readfinish'>故事到这个地方就讲完啦。请你把这几个人进行打分，标准是你对他们的好感度。</p>
 			<router-link to='select' class="next">开始打分</router-link>
 		</div>
-
 	</div>
 </template>
 <script type="text/javascript">
